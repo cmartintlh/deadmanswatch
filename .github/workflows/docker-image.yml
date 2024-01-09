@@ -43,4 +43,4 @@ jobs:
         with:
           context: .
           load: true
-          tags: ghcr.io/cmartintlh/deadmanswatch:latest:${{ github.sha }}
+          tags: ghcr.io/cmartintlh/deadmanswatch:${{ github.sha }}
