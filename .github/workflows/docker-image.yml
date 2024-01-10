@@ -43,4 +43,5 @@ jobs:
         with:
           context: .
           load: true
-          tags: ghcr.io/cmartintlh/deadmanswatch:${{ github.sha }}
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
