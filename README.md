@@ -6,6 +6,8 @@ when Prometheus is down.
 
 It also sends it's own dead mans switch to CloudWatch so that you can alarm when DeadMansWatch is down.
 
+Forked from https://github.com/KierranM/deadmanswatch
+
 ## Usage
 To run deadmanswatch, use the `watch` command
 ```
