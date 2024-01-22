@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: deadmanswatch
-          image: "kierranm/deadmanswatch:v1.0.0"
+          image: "ghcr.io/wiley/deadmanswatch:v1.0.0"
           imagePullPolicy: IfNotPresent
           args:
             - watch
@@ -31,5 +31,4 @@ spec:
             httpGet:
               path: /ping
               port: http
-          resources:
-            {}
+          resources: {}

@@ -1,4 +1,4 @@
-module github.com/KierranM/deadmanswatch
+module github.com/wiley/deadmanswatch
 
 go 1.21
 
