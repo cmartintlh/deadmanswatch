@@ -3,11 +3,11 @@ appVersion: "1.0.1"
 description: A Helm chart for deploying DeadMansWatch
 name: deadmanswatch
 version: 1.0.0
-home: https://github.com/kierranm/deadmanswatch
+home: https://github.com/wiley/deadmanswatch
 engine: gotpl
 maintainers:
-  - name: kierranm
-    email: kierranm@gmail.com
+  - name: cmartin
+    email: cmartin@wiley.com
 keywords:
   - deadmanswitch
   - alertmanager
