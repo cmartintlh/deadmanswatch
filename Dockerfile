@@ -1,4 +1,4 @@
-FROM public.ecr.aws/docker/library/golang:1.21 AS builder
+FROM public.ecr.aws/docker/library/golang:1.22 AS builder
 LABEL maintainer="cmartin@wiley.com" \
       description="Forwards prometheus DeadMansSwitch alerts to CloudWatch" \
       version="1.0.1"
